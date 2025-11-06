@@ -34,7 +34,7 @@ hello-world-python/
 └── .helmignore
 ````
 
-## Step #2: Customizing with our values
+### Step #2: Customizing with our values
 
 In order to deploy the required application was required to modify some values of the file.
 
@@ -60,7 +60,7 @@ service:
 - We specified the type of service as Cluster-IP.
 - We defined the application port (5000) according to the source code given.
 
-## Step #3: Deploying our chart
+### Step #3: Deploying our chart
 
 Once the values are configured correctly. The next step is deploying our chart.
 
@@ -82,7 +82,7 @@ kubectl get svc,po,deploy
 </p>  
 
 
-## Step #4: Accesing to our application.
+### Step #4: Accesing to our application.
 
 Finally we can access to our python application using the ip and port given in the **step #3**.
 
