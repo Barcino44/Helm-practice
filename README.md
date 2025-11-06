@@ -2,8 +2,8 @@
 
 ## Solution:
 
-- The mainly objective with this activity is getting familiarized with Kubernetes helm.
-- In this case we are going to expose in our localhost a single python application.
+- The main objective of this activity is to become familiar with Kubernetes Helm.
+- In this case, we will expose a single Python application in our local environment.
 
 ## Step followed:
 
@@ -14,7 +14,7 @@ The command used in this step was.
 ````
 helm create hello-world-python
 ````
-That indicate we are going to create a helm chart called ``hello-world-python`` that follows this structure:
+This command indicates that we are going to create a helm chart called ``hello-world-python`` that follows the following structure.
 
 ````
 hello-world-python/
@@ -36,7 +36,7 @@ hello-world-python/
 
 ### Step #2: Customizing with our values
 
-In order to deploy the required application was required to modify some values of the file.
+In order to deploy the required application, it was required to modify some values of the file.
 
 ````yaml
 image:
@@ -58,11 +58,11 @@ service:
   port: 5000
 ````
 - We specified the type of service as Cluster-IP.
-- We defined the application port (5000) according to the source code given.
+- We defined the application port (5000) according to the given source code.
 
 ### Step #3: Deploying our chart
 
-Once the values are configured correctly. The next step is deploying our chart.
+Once the values are correctly configured. The next step is deploying our chart.
 
 ````
 helm install hello-world-python <pathtochart>
