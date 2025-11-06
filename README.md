@@ -84,7 +84,7 @@ kubectl get svc,po,deploy
 
 ## Step #4: Accesing to our application.
 
-Finally we can access to our python application using the ip and given in the step #3.
+Finally we can access to our python application using the ip and port given in the **step #3**.
 
 <p align="center">
   <img width="1214" height="90" alt="image" src="https://github.com/user-attachments/assets/f1d3dd59-419c-4c5f-a74f-e624989bb534" />
