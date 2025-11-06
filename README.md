@@ -3,7 +3,7 @@
 ## Solution:
 
 - The mainly objective with this activity is getting familiarized with Kubernetes helm.
-- In this case we are going to expose to our localhost a single python application.
+- In this case we are going to expose in our localhost a single python application.
 
 ## Step followed:
 
