@@ -60,3 +60,36 @@ service:
 - We specified the type of service as Cluster-IP.
 - We defined the application port (5000) according to the source code given.
 
+## Step #3: Deploying our chart
+
+Once the values are configured correctly. The next step is deploying our chart.
+
+````
+helm install hello-world-python <pathtochart>
+````
+<p align="center">
+  <img width="1380" height="288" alt="image" src="https://github.com/user-attachments/assets/32d7bb3c-260d-471e-a5b5-57aab01c7504" />
+</p>
+
+We can also get the pods, services and deployment asociated with ``hello-world-python``.
+
+````
+kubectl get svc,po,deploy
+````
+
+<p align="center">
+  <img width="1130" height="308" alt="image" src="https://github.com/user-attachments/assets/4a7e0bca-c660-4bad-b260-68b5b8761095" />
+</p>  
+
+
+## Step #4: Accesing to our application.
+
+Finally we can access to our python application using the ip and given in the step #3.
+
+<p align="center">
+  <img width="1214" height="90" alt="image" src="https://github.com/user-attachments/assets/f1d3dd59-419c-4c5f-a74f-e624989bb534" />
+</p> 
+
+<p align="center">
+  <img width="799" height="172" alt="image" src="https://github.com/user-attachments/assets/ed9f1781-aa9f-412c-9af9-d204512700d9" />
+</p> 
